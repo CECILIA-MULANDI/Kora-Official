@@ -1,4 +1,3 @@
-// src/Header.js
 import React from 'react';
 import { Box, Flex, Text, Link, Icon, HStack, Divider } from '@chakra-ui/react';
 import { PhoneIcon } from '@chakra-ui/icons';
@@ -7,7 +6,7 @@ const Header = () => {
   return (
     <Box
       position="relative"
-      height="70vh" // Reduced height
+      height="70vh"
       backgroundImage="url('path/to/your/image.jpg')"
       backgroundPosition="center"
       backgroundRepeat="no-repeat"
@@ -19,16 +18,16 @@ const Header = () => {
         left: 0,
         width: "100%",
         height: "100%",
-        bg: "rgba(0, 128, 0, 0.5)", // green hue overlay
+        bg: "rgba(0, 128, 0, 0.5)",
         zIndex: -1,
       }}
     >
       {/* Logo and Phone Section */}
       <Flex p={4} justify="space-between" align="center">
-        <Flex align="center" ml={40}> {/* Adjusted margin */}
+        <Flex align="center" ml={40}>
           <Text fontSize="2xl" fontWeight="bold" color="black">KORA</Text>
         </Flex>
-        <Flex align="center" mr={40}> {/* Adjusted margin */}
+        <Flex align="center" mr={40}>
           <Icon as={PhoneIcon} w={6} h={6} mr={2} />
           <Text>+1 (123) 456-7890</Text>
         </Flex>
@@ -44,7 +43,7 @@ const Header = () => {
         as="nav"
         spacing={4}
         p={4}
-        bg="rgba(0, 128, 0, 0.5)" // Same green background
+        bg="rgba(0, 128, 0, 0.5)"
         width="70%"
         margin="0 auto"
         justify="space-between"
@@ -87,9 +86,9 @@ const Header = () => {
             p={6}
             textAlign="center"
             width="200px"
-            borderLeft={index !== 0 ? "1px solid" : "none"} // Add left border to all cards except the first one
+            borderLeft={index !== 0 ? "1px solid" : "none"}
             borderColor="gray.200"
-            ml={index !== 0 ? "-1px" : "0"} // Remove double border effect
+            ml={index !== 0 ? "-1px" : "0"}
           >
             <Icon as={PhoneIcon} w={10} h={10} mb={4} color="green.500" />
             <Text fontSize="xl" fontWeight="bold">
