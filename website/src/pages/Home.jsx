@@ -6,6 +6,7 @@ import Whynow from '../Components/Whynow';
 import Problems from '../Components/Problems';
 import Works from '../Components/Howitworks';
 import Footer from '../Components/Footer';
+import Team from '../Components/Team';
 // import Companies from '../Components/companies/Companies';
 // import Articles from '../Components/articles/Articles';
 
@@ -17,6 +18,7 @@ export default function Homefull() {
       <Whynow />
       <Problems />
       <Works />
+      <Team />
       <Footer />
       {/* <Companies />
       <Articles /> */}

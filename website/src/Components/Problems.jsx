@@ -11,9 +11,9 @@ const Problems = () => {
       textAlign="center"
       py={10}
       px={0}
-      bgColor={"#F2E6E9"}
+      bgColor={"#E8F7DD"}
     >
-      <Text fontSize="48" color="#801423" fontWeight="bold" mb={10} px={5}>
+      <Text fontSize="48" color="#204840" fontWeight="bold" mb={10} px={5}>
         Problems we're Solving
       </Text>
 
@@ -21,7 +21,7 @@ const Problems = () => {
         direction={{ base: "column", md: "row" }}
         alignItems="center"
         justify="space-between"
-        bg="#F2E6E9"
+        bg="#E8F7DD"
         px={{ base: 0, md: 200 }}
         pb={10}
       >
