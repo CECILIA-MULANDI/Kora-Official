@@ -27,7 +27,7 @@ const HowItWorks = () => {
   return (
     <Box py={10} bg="white">
       <Box maxW="1500px" mx="auto" px={0}>
-        <Heading mb={8}>The
+        <Heading mb={8} color="#204840">The
         technology:IoT (Telematics)+Smart Contracts</Heading>
         <Heading
             as="h2"
