@@ -119,7 +119,7 @@ const AboutUs = () => {
             <Heading
               as="h3"
               fontSize={{ base: "xl", md: "2xl" }}
-              color="#51101C"
+              color="#204840"
               mt={4}
               mb={4}
               textAlign={"left"}
@@ -143,7 +143,7 @@ const AboutUs = () => {
           mt={{ base: 8, md: 0 }}
           alignItems="center"
           justifyContent="space-between"
-          backgroundColor={"#FEF7F9"}
+          backgroundColor={"#E8F7DD"}
           py={10}
           px={{ base: 10, md: 40 }}
           maxWidth={{ base: "100%", md: "100%" }}
@@ -152,7 +152,7 @@ const AboutUs = () => {
             <Heading
               as="h3"
               fontSize={{ base: "xl", md: "2xl" }}
-              color="#51101C"
+              color="#204840"
               mt={4}
               mb={4}
               textAlign={"left"}
@@ -201,7 +201,7 @@ const AboutUs = () => {
             <Heading
               as="h3"
               fontSize={{ base: "xl", md: "2xl" }}
-              color="#51101C"
+              color="#204840"
               mt={4}
               mb={4}
               textAlign={"left"}
@@ -226,7 +226,7 @@ const AboutUs = () => {
           mt={{ base: 8, md: 0 }}
           alignItems="center"
           justifyContent="space-between"
-          backgroundColor={"#FEF7F9"}
+          backgroundColor={"#E8F7DD"}
           py={10}
           px={{ base: 10, md: 40 }}
           maxWidth={{ base: "100%", md: "100%" }}
@@ -235,7 +235,7 @@ const AboutUs = () => {
             <Heading
               as="h3"
               fontSize={{ base: "xl", md: "2xl" }}
-              color="#51101C"
+              color="#204840"
               mt={4}
               mb={4}
               textAlign={"left"}
