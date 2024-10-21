@@ -45,10 +45,10 @@ const Header = () => {
             </Flex>
           </Link>
         </Flex>
-        <Flex align="center" mr={{ base: 0, md: 40 }}>
+        {/* <Flex align="center" mr={{ base: 0, md: 40 }}>
           <Icon as={PhoneIcon} w={6} h={6} mr={2} color="white" />
           <Text color="white">+1 (123) 456-7890</Text>
-        </Flex>
+        </Flex> */}
         <IconButton
           display={{ base: 'block', md: 'none' }}
           icon={<HamburgerIcon />}
@@ -115,7 +115,7 @@ const Header = () => {
       </Drawer>
 
       {/* Centered Text */}
-      <Flex direction="column" align="center" justify="center" height="calc(60vh - 120px)" position="relative">
+      <Flex direction="column" align="center" justify="center" height="calc(55vh - 120px)" position="relative">
         <Text fontSize={{ base: '4xl', md: '6xl' }} color="white" fontWeight="bold" textAlign="center">
           KORA INSUTECH
         </Text>
