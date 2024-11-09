@@ -71,7 +71,7 @@ const Header = () => {
         position="relative"
         display={{ base: 'none', md: 'flex' }}
       >
-        <Link href="#" px={2} py={1} color="white" fontWeight="bold" borderRadius="md" _hover={{ textDecoration: "none" }}>
+        <Link href="/" px={2} py={1} color="white" fontWeight="bold" borderRadius="md" _hover={{ textDecoration: "none" }}>
           Home
         </Link>
         <Divider orientation="vertical" height="20px" borderColor="black" />
@@ -83,8 +83,8 @@ const Header = () => {
           Services
         </Link>
         <Divider orientation="vertical" height="20px" borderColor="black" />
-        <Link href="#" px={2} py={1} color="white" fontWeight="bold" borderRadius="md" _hover={{ textDecoration: "none" }}>
-          Contact Us
+        <Link href="/team" px={2} py={1} color="white" fontWeight="bold" borderRadius="md" _hover={{ textDecoration: "none" }}>
+          The Team
         </Link>
       </HStack>
 
@@ -96,7 +96,7 @@ const Header = () => {
             <DrawerHeader>Menu</DrawerHeader>
             <DrawerBody>
               <VStack spacing={4} align="start">
-                <Link href="#" onClick={onClose} px={2} py={1} color="black" fontWeight="bold" borderRadius="md" _hover={{ textDecoration: "none" }}>
+                <Link href="/" onClick={onClose} px={2} py={1} color="black" fontWeight="bold" borderRadius="md" _hover={{ textDecoration: "none" }}>
                   Home
                 </Link>
                 <Link href="#" onClick={onClose} px={2} py={1} color="black" fontWeight="bold" borderRadius="md" _hover={{ textDecoration: "none" }}>
@@ -105,7 +105,7 @@ const Header = () => {
                 <Link href="#" onClick={onClose} px={2} py={1} color="black" fontWeight="bold" borderRadius="md" _hover={{ textDecoration: "none" }}>
                   Services
                 </Link>
-                <Link href="#" onClick={onClose} px={2} py={1} color="black" fontWeight="bold" borderRadius="md" _hover={{ textDecoration: "none" }}>
+                <Link href="/team" onClick={onClose} px={2} py={1} color="black" fontWeight="bold" borderRadius="md" _hover={{ textDecoration: "none" }}>
                   The Team
                 </Link>
               </VStack>
