@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Home from "./pages/Home";
+import Team from "./pages/Team";
 // import About from "./pages/About";
 // import Events from "./pages/Events";
 // import Blog from "./pages/Blog";
@@ -21,6 +22,7 @@ const App = () => {
         <div className="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/team" element={<Team />} />
             {/* <Route path="/about" element={<About />} />
             <Route path="/events" element={<Events />} />
             <Route path="/contact" element={<ContactUs />} />

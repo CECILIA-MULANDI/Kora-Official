@@ -117,10 +117,10 @@ const Header = () => {
       {/* Centered Text */}
       <Flex direction="column" align="center" justify="center" height="calc(55vh - 120px)" position="relative">
         <Text fontSize={{ base: '4xl', md: '6xl' }} color="white" fontWeight="bold" textAlign="center">
-          KORA INSUTECH
+          MEET THE TEAM
         </Text>
         <Text fontSize={{ base: 'lg', md: '2xl' }} color="white" textAlign="center">
-          Fair Pay for Fair Play!
+          Behind Kora InsuTech!
         </Text>
 
         <HStack spacing={8} mt={100}>
