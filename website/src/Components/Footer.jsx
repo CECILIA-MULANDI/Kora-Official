@@ -5,7 +5,7 @@ import { FaXTwitter, FaLinkedinIn, FaInstagram, FaEnvelope } from 'react-icons/f
 
 const Footer = () => {
   return (
-    <Box bg="#1C5E3D" py={8} color="white">
+    <Box bg="#204840" py={8} color="white">
       <Box maxW="1200px" mx="auto" px={4}>
         {/* Main Footer Content */}
         <VStack spacing={4} textAlign="center">
