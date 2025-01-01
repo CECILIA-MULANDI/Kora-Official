@@ -11,7 +11,7 @@ import {
 import Value1 from "../images/software.jpeg";
 import Value2 from "../images/hardware.jpeg";
 import Value3 from "../images/dashboard2.jpeg";
-import Value4 from "../images/data.jpeg";
+import Value4 from "../images/data2.jpeg";
 
 const AboutUs = () => {
   return (
