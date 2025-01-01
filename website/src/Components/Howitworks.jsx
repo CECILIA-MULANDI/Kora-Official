@@ -26,35 +26,50 @@ const HowItWorks = () => {
 
   return (
     <Box py={10} bg="white">
-      <Box maxW="1500px" mx="auto" px={0}>
+      <Box maxW="1500px" mx="auto" px={4}>
         <Heading mb={8} color="#204840">
-        The technology: IoT(Telematics) + Smart Contracts</Heading>
+          The technology: IoT(Telematics) + Smart Contracts
+        </Heading>
         <Heading
-            as="h2"
-            size="xl"
-            color="#000000"
-            mt={10}
-            mb={5}
-            textAlign="center"
-          >
-            How it Works
-          </Heading>
-          {/* <Heading
-            as="h2"
-            size="md"
-            color="#312B2D"
-            mb={4}
-            textAlign="center"
-            style={{ fontFamily: "Avenir, sans-serif" }}
-          >
-            How it Works
-          </Heading> */}
+          as="h2"
+          size="xl"
+          color="#000000"
+          mt={10}
+          mb={5}
+          textAlign="center"
+        >
+          How it Works
+        </Heading>
         <SimpleGrid columns={[1, 3]} spacing={8}>
           {steps.map((step, index) => (
-            <Box key={index} textAlign="center">
-              <Image src={step.image} alt={step.title} mb={4} />
+            <Box
+              key={index}
+              textAlign="center"
+              border="1px solid #e2e2e2"
+              borderRadius="8px"
+              p={4}
+              display="flex"
+              flexDirection="column"
+              alignItems="center"
+            >
+              <Box
+                display="flex"
+                alignItems="center"
+                justifyContent="center"
+                height="150px" // Fixed height
+                width="100%"
+                mb={4}
+              >
+                <Image
+                  src={step.image}
+                  alt={step.title}
+                  maxHeight="100%"
+                  maxWidth="100%"
+                  objectFit="contain" // Ensures the image scales properly
+                />
+              </Box>
               <Heading size="md" mb={2}>{step.title}</Heading>
-              <Text>{step.description}</Text>
+              <Text minH="80px">{step.description}</Text> {/* Ensure uniform height */}
             </Box>
           ))}
         </SimpleGrid>
