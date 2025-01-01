@@ -28,7 +28,6 @@ const AboutUs = () => {
             size="xl"
             color="#000000"
             mt={10}
-            mb={5}
             textAlign="center"
           >
             Value Proposition
@@ -101,7 +100,7 @@ const AboutUs = () => {
           display="flex"
           flexDirection={{ base: "column", md: "row" }}
           textAlign={{ base: "center", md: "right" }}
-          mt={{ base: 8, md: 0 }}
+          mt={{ base: 0, md: 0 }}
           alignItems="center"
           justifyContent="space-between"
           py={10}
