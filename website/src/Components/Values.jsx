@@ -8,10 +8,10 @@ import {
   Image,
   Center,
 } from "@chakra-ui/react";
-import Value1 from "../images/value1.png";
-import Value2 from "../images/value2.png";
-import Value3 from "../images/value3.png";
-import Value4 from "../images/value4.png";
+import Value1 from "../images/software.jpeg";
+import Value2 from "../images/hardware.jpeg";
+import Value3 from "../images/dashboard2.jpeg";
+import Value4 from "../images/data.jpeg";
 
 const AboutUs = () => {
   return (
