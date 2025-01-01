@@ -32,20 +32,6 @@ const AboutUs = () => {
           >
             Value Proposition
           </Heading>
-          {/* <Heading
-            as="h2"
-            size="md"
-            color="#312B2D"
-            mb={4}
-            textAlign="center"
-            style={{ fontFamily: "Avenir, sans-serif" }}
-          >
-            We are committed to providing the necessary infrastructure and
-            support that empower founders to tackle audacious problems and
-            unlock growth. Our mission is to nurture and invest in
-            high-potential technology ventures, driving innovation and economic
-            development across the continent.
-          </Heading> */}
         </Box>
       </Center>
 
@@ -55,47 +41,6 @@ const AboutUs = () => {
         justify="space-around"
         py={10}
       >
-        {/* <Box
-          display="flex"
-          flexDirection={{ base: "column", md: "row" }}
-          textAlign={{ base: "center", md: "right" }}
-          mt={{ base: 8, md: 0 }}
-          alignItems="center"
-          justifyContent="space-between"
-          backgroundColor={"rgba(0, 128, 0, 0.5)"}
-          py={10}
-          px={{ base: 10, md: 40 }}
-          maxWidth={{ base: "100%", md: "100%" }}
-        >
-          <Box ml={{ base: 0, md: 8 }} maxWidth={{ base: "100%", md: "45%" }}>
-            <Heading
-              as="h3"
-              fontSize={{ base: "xl", md: "2xl" }}
-              color="#51101C"
-              mt={4}
-              mb={4}
-              textAlign={"left"}
-              style={{ fontFamily: "Avenir, sans-serif" }}
-            >
-              Software
-            </Heading>
-            <Text
-              fontSize={{ base: "md", md: "lg" }}
-              color="#312B2D"
-              textAlign={"left"}
-            >
-              Kora onboards insurance policies as smart contracts that are immutable and transparent.
-            </Text>
-          </Box>
-          <Image
-            src={Value1}
-            alt="Service 1 Image"
-            boxSize={{ base: "100%", md: "30%" }}
-            objectFit="cover"
-            pb={{ base: 4, md: 4 }}
-          />
-        </Box> */}
-
         <Box
           display="flex"
           flexDirection={{ base: "column", md: "row" }}
@@ -260,51 +205,6 @@ const AboutUs = () => {
             pb={{ base: 4, md: 4 }}
           />
         </Box>
-
-        {/* <Box
-          display="flex"
-          flexDirection={{ base: "column", md: "row" }}
-          textAlign={{ base: "center", md: "right" }}
-          mt={{ base: 8, md: 0 }}
-          alignItems="center"
-          justifyContent="space-between"
-          py={10}
-          px={{ base: 10, md: 40 }}
-        >
-          <Image
-            src={pmfImg}
-            alt="Service 4 Image"
-            boxSize={{ base: "100%", md: "30%" }}
-            objectFit="cover"
-            loading="lazy"
-            mb={{ base: 4, md: 0 }}
-          />
-          <Box ml={{ base: 0, md: 8 }} maxWidth={{ base: "100%", md: "45%" }}>
-            <Heading
-              as="h3"
-              fontSize={{ base: "xl", md: "2xl" }}
-              color="#51101C"
-              mt={4}
-              mb={4}
-              textAlign={"left"}
-              style={{ fontFamily: "Avenir, sans-serif" }}
-            >
-              Accelerate Path to PMF:
-            </Heading>
-            <Text
-              fontSize={{ base: "md", md: "lg" }}
-              color="#312B2D"
-              textAlign={"left"}
-            >
-              We guide startups in quickly achieving a strong product-market
-              fit, crucial for scaling and long-term success. This involves
-              market research, customer feedback, and iterative development to
-              align the product with market demands, ensuring it meets the needs
-              of the target audience and stands out in the competitive
-              landscape.
-            </Text>
-          </Box>
-        </Box> */}
       </Flex>
     </Container>
   );
