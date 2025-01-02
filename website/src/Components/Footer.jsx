@@ -51,7 +51,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <Text fontSize="xs" mt={4}>
-            &copy; 2024 KORA INSUTECH. All rights reserved.
+            &copy; 2025 KORA INSUTECH. All rights reserved.
           </Text>
         </VStack>
       </Box>
