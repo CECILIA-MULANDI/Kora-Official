@@ -12,7 +12,7 @@
 
 use alloy_sol_types::SolType;
 use clap::Parser;
-use fibonacci_lib::PublicValuesStruct;
+use fibonacci_lib::read_records;
 use sp1_sdk::{include_elf, ProverClient, SP1Stdin};
 
 /// The ELF (executable and linkable format) file for the Succinct RISC-V zkVM.
@@ -27,9 +27,6 @@ struct Args {
 
     #[clap(long)]
     prove: bool,
-
-    #[clap(long, default_value = "20")]
-    n: u32,
 }
 
 fn main() {
@@ -38,7 +35,7 @@ fn main() {
 
     // Parse the command line arguments.
     let args = Args::parse();
-
+    let file = "../../../data_files/iot.csv";
     if args.execute == args.prove {
         eprintln!("Error: You must specify either --execute or --prove");
         std::process::exit(1);
