@@ -8,3 +8,4 @@ const IoTDataSchema = new mongoose.Schema({
 });
 
 const IoTData = mongoose.model("IoTData", IoTDataSchema);
+module.exports = IoTData;
