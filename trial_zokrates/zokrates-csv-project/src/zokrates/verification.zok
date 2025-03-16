@@ -1,0 +1,6 @@
+// This file contains the ZoKrates code for verifying the generated proofs.
+
+def main(private field a, private field b, field c) -> bool {
+    // Check if a * b == c
+    return a * b == c;
+}
