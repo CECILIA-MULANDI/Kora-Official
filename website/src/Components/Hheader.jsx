@@ -5,7 +5,7 @@ import {
 } from '@chakra-ui/react';
 import { HamburgerIcon } from '@chakra-ui/icons';
 import Logo from '../images/logo.png';
-import { FaXTwitter, FaLinkedinIn, FaInstagram, FaEnvelope } from 'react-icons/fa6';
+import { FaXTwitter, FaLinkedinIn, FaEnvelope } from 'react-icons/fa6';
 
 const Header = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -19,18 +19,18 @@ const Header = () => {
         left={0}
         width="100%"
         height="100%"
-        background="radial-gradient(circle at top, black 30%, #1C5E3D 80%)"
+        background="radial-gradient(circle at top, black 30%, #1A3C5E 80%)"
         zIndex={-2}
       />
 
-      {/* Green Tint */}
+      {/* Blue Tint */}
       <Box
         position="absolute"
         top={0}
         left={0}
         width="100%"
         height="100%"
-        bg="rgba(0, 77, 38, 0.5)"
+        bg="rgba(26, 60, 94, 0.5)"
         zIndex={-1}
       />
 
@@ -64,7 +64,7 @@ const Header = () => {
         as="nav"
         spacing={4}
         p={4}
-        bg="rgba(0, 77, 38, 0.5)"
+        bg="rgba(26, 60, 94, 0.5)"
         width="70%"
         margin="0 auto"
         justify="space-between"
@@ -76,15 +76,15 @@ const Header = () => {
         </Link>
         <Divider orientation="vertical" height="20px" borderColor="black" />
         <Link href="#" px={2} py={1} color="white" fontWeight="bold" borderRadius="md" _hover={{ textDecoration: "none" }}>
-          About
+          About Us
         </Link>
         <Divider orientation="vertical" height="20px" borderColor="black" />
         <Link href="#" px={2} py={1} color="white" fontWeight="bold" borderRadius="md" _hover={{ textDecoration: "none" }}>
-          Services
+          Solutions
         </Link>
         <Divider orientation="vertical" height="20px" borderColor="black" />
-        <Link href="/team" px={2} py={1} color="white" fontWeight="bold" borderRadius="md" _hover={{ textDecoration: "none" }}>
-          The Team
+        <Link href="#" px={2} py={1} color="white" fontWeight="bold" borderRadius="md" _hover={{ textDecoration: "none" }}>
+          Contact Us
         </Link>
       </HStack>
 
@@ -100,13 +100,13 @@ const Header = () => {
                   Home
                 </Link>
                 <Link href="#" onClick={onClose} px={2} py={1} color="black" fontWeight="bold" borderRadius="md" _hover={{ textDecoration: "none" }}>
-                  About
+                  About Us
                 </Link>
                 <Link href="#" onClick={onClose} px={2} py={1} color="black" fontWeight="bold" borderRadius="md" _hover={{ textDecoration: "none" }}>
-                  Services
+                  Solutions
                 </Link>
-                <Link href="/team" onClick={onClose} px={2} py={1} color="black" fontWeight="bold" borderRadius="md" _hover={{ textDecoration: "none" }}>
-                  The Team
+                <Link href="#" onClick={onClose} px={2} py={1} color="black" fontWeight="bold" borderRadius="md" _hover={{ textDecoration: "none" }}>
+                  Contact Us
                 </Link>
               </VStack>
             </DrawerBody>
@@ -153,7 +153,7 @@ const Header = () => {
             variant="outline"
             size="lg"
           />
-          <IconButton
+          {/* <IconButton
             as="a"
             href="https://instagram.com"
             target="_blank"
@@ -162,7 +162,7 @@ const Header = () => {
             colorScheme="whiteAlpha"
             variant="outline"
             size="lg"
-          />
+          /> */}
         </HStack>
       </Flex>
     </Box>

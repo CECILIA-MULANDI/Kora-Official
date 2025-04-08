@@ -11,9 +11,9 @@ const Problems = () => {
       textAlign="center"
       py={10}
       px={0}
-      bgColor={"#E8F7DD"}
+      bgColor={"#E6F0FA"}
     >
-      <Text fontSize="48" color="#204840" fontWeight="bold" mb={10} px={5}>
+      <Text fontSize="48" color="#1A3C5E" fontWeight="bold" mb={10} px={5}>
         Problems we're Solving
       </Text>
 
@@ -21,7 +21,7 @@ const Problems = () => {
         direction={{ base: "column", md: "row" }}
         alignItems="stretch"
         justify="space-between"
-        bg="#E8F7DD"
+        bg="#E6F0FA"
         px={{ base: 4, md: 200 }}
         pb={10}
         gap={8}
@@ -42,7 +42,7 @@ const Problems = () => {
               display="flex"
               alignItems="center"
               justifyContent="center"
-              bgColor={"#E8F7DD"}
+              bgColor={"#E6F0FA"}
               borderRadius="md"
               overflow="hidden"
             >
@@ -56,7 +56,7 @@ const Problems = () => {
             </Box>
 
             <Box
-              bgGradient="linear(to-b, #204840, #708238)"
+              bgGradient="linear(to-b, #1A3C5E, #3B82F6)"
               color="white"
               p={4}
               borderRadius="md"

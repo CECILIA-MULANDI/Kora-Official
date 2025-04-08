@@ -4,7 +4,7 @@ import Home from '../Components/Hheader';
 import Values from '../Components/Values';
 import Whynow from '../Components/Whynow';
 import Problems from '../Components/Problems';
-import Works from '../Components/Howitworks';
+// import Works from '../Components/Howitworks';
 import Footer from '../Components/Footer';
 // import Team from '../Components/Team';
 // import Companies from '../Components/companies/Companies';
@@ -17,7 +17,7 @@ export default function Homefull() {
       <Values />
       <Whynow />
       <Problems />
-      <Works />
+      {/* <Works /> */}
       {/* <Team /> */}
       <Footer />
       {/* <Companies />

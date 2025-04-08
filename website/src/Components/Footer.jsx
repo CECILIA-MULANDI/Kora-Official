@@ -1,11 +1,10 @@
 import React from 'react';
 import { Box, Text, HStack, VStack, Link, Icon } from '@chakra-ui/react';
-// import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
-import { FaXTwitter, FaLinkedinIn, FaInstagram, FaEnvelope } from 'react-icons/fa6';
+import { FaXTwitter, FaLinkedinIn, FaEnvelope } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
-    <Box bg="#1C5E3D" py={8} color="white">
+    <Box bg="#1A3C5E" py={8} color="white"> {/* Changed from #1C5E3D to #1A3C5E */}
       <Box maxW="1200px" mx="auto" px={4}>
         {/* Main Footer Content */}
         <VStack spacing={4} textAlign="center">
@@ -41,9 +40,9 @@ const Footer = () => {
             <Link href="https://x.com/korainsutecH" isExternal>
               <Icon as={FaXTwitter} boxSize={5} _hover={{ color: "gray.300" }} />
             </Link>
-            <Link href="https://instagram.com" isExternal>
+            {/* <Link href="https://instagram.com" isExternal>
               <Icon as={FaInstagram} boxSize={5} _hover={{ color: "gray.300" }} />
-            </Link>
+            </Link> */}
             <Link href="https://www.linkedin.com/company/kora-insurtech/" isExternal>
               <Icon as={FaLinkedinIn} boxSize={5} _hover={{ color: "gray.300" }} />
             </Link>
@@ -51,7 +50,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <Text fontSize="xs" mt={4}>
-            &copy; 2025 KORA INSUTECH. All rights reserved.
+            © 2025 KORA INSUTECH. All rights reserved.
           </Text>
         </VStack>
       </Box>

@@ -26,7 +26,7 @@ const AboutUs = () => {
           <Heading
             as="h2"
             size="xl"
-            color="#000000"
+            color="#1A3C5E"
             mt={10}
             textAlign="center"
           >
@@ -63,7 +63,7 @@ const AboutUs = () => {
             <Heading
               as="h3"
               fontSize={{ base: "xl", md: "2xl" }}
-              color="#204840"
+              color="#1A3C5E"
               mt={4}
               mb={4}
               textAlign={"left"}
@@ -87,7 +87,7 @@ const AboutUs = () => {
           mt={{ base: 8, md: 0 }}
           alignItems="center"
           justifyContent="space-between"
-          backgroundColor={"#E8F7DD"}
+          backgroundColor={"#E6F0FA"}
           py={10}
           px={{ base: 10, md: 40 }}
           maxWidth={{ base: "100%", md: "100%" }}
@@ -96,7 +96,7 @@ const AboutUs = () => {
             <Heading
               as="h3"
               fontSize={{ base: "xl", md: "2xl" }}
-              color="#204840"
+              color="#1A3C5E"
               mt={4}
               mb={4}
               textAlign={"left"}
@@ -109,8 +109,7 @@ const AboutUs = () => {
               color="#312B2D"
               textAlign={"left"}
             >
-              Once we on board your clients policies, we will install high level telematics on their cars that pick real time data upto 1 minute old and support biometrics 
-              features as per the agreed package.
+              Once we onboard your clients' policies, we will install high-level telematics on their cars that pick real-time data up to 1 minute old and support biometric features as per the agreed package.
             </Text>
           </Box>
           <Image
@@ -145,7 +144,7 @@ const AboutUs = () => {
             <Heading
               as="h3"
               fontSize={{ base: "xl", md: "2xl" }}
-              color="#204840"
+              color="#1A3C5E"
               mt={4}
               mb={4}
               textAlign={"left"}
@@ -158,7 +157,7 @@ const AboutUs = () => {
               color="#312B2D"
               textAlign={"left"}
             >
-              Going forward, we will closdely monitor, their accelaration patterns, their frequent location roads as necessary pointers for when a peril occurs.
+              Going forward, we will closely monitor their acceleration patterns and frequent location roads as necessary pointers for when a peril occurs.
             </Text>
           </Box>
         </Box>
@@ -170,7 +169,7 @@ const AboutUs = () => {
           mt={{ base: 8, md: 0 }}
           alignItems="center"
           justifyContent="space-between"
-          backgroundColor={"#E8F7DD"}
+          backgroundColor={"#E6F0FA"}
           py={10}
           px={{ base: 10, md: 40 }}
           maxWidth={{ base: "100%", md: "100%" }}
@@ -179,7 +178,7 @@ const AboutUs = () => {
             <Heading
               as="h3"
               fontSize={{ base: "xl", md: "2xl" }}
-              color="#204840"
+              color="#1A3C5E"
               mt={4}
               mb={4}
               textAlign={"left"}
@@ -192,8 +191,7 @@ const AboutUs = () => {
               color="#312B2D"
               textAlign={"left"}
             >
-              When a peril occuras, our bots trigger our smart contracts which in turn ping our dashboard and your firm is alerted to set aside funds according to the 
-              clients contract. Payable upon confirmation by your underwriters.
+              When a peril occurs, our bots trigger our smart contracts, which in turn ping our dashboard, and your firm is alerted to set aside funds according to the client's contract. Payable upon confirmation by your underwriters.
             </Text>
           </Box>
           <Image

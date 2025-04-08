@@ -35,7 +35,7 @@ const FlexSection = () => {
           <Heading
             as="h2"
             size="2xl"
-            color="#204840"
+            color="#1A3C5E"
             mb={50}
             style={{ fontFamily: "Avenir, sans-serif" }}
           >
