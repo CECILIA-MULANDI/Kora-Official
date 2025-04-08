@@ -1,0 +1,7 @@
+// This file contains the ZoKrates code for generating proofs based on the input data from the CSV file.
+
+def main(private field speed, field latitude, field longitude) -> field {
+    // Example computation for proof generation
+    field result = speed * 2; // Placeholder for actual computation
+    return result;
+}
